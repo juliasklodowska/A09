@@ -64,6 +64,7 @@ main h1 {
 	border: 3px double #931420;
 	border-radius: 10px;
 	box-shadow: 5px 5px;
+	margin: 5px;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -94,9 +95,14 @@ main li {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	position: relative;
+	top: 1px;
+	right: 2px;
+	width: 602px;
 }
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+
 }
